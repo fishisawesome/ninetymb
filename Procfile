@@ -1,1 +1,1 @@
-web: python ninetymb.py
+web: gunicorn ninetymb:app --log-file -
